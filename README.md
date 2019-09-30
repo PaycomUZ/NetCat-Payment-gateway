@@ -28,7 +28,7 @@ Payme модуль для  NetCat
 - В списке способов оплат найти «Payme» и нажать кнопку НАСТРОЙКИ.
 
 	Заполнить настройки.
-
+````
 * PaymeMerchantId - ID поставщика, можно получить в Личном кабинете.
 * PaymeSecretKey - пароль, можно получить в Личном кабинете.
 * PaymeSecretKeyForTest - пароль для тестов, можно получить в Личном кабинете.
@@ -38,6 +38,6 @@ Payme модуль для  NetCat
 * PaymeReturnUrl 	-  URL для перенаправления <ВАШ САЙТ>/orders/
 * PaymeReturnAfter -15,30,60. Это секунды. вернуться после оплаты через
 * PaymeProductInformation - 1 или 0 (1-Добавить в чек данные о товарах, 0-не добавить в чек данные о товарах)
-
+````
 	в Личном кабинете в качестве Endpoint Url <ВАШ САЙТ>/netcat/modules/payment/callback.php?paySystem=nc_payment_system_payme&type=result.
 
